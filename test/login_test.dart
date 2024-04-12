@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sce_project/intro/login_page.dart';
 
+//Student: Malik Abo Shah
+
 void main() {
   Firebase.initializeApp();
 
