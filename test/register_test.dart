@@ -4,6 +4,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:sce_project/intro/register_page.dart';
 import 'package:sce_project/interface/meet_volunteer.dart';
 
+//Student: Yazan Wattad
+
 void main() {
   group('Register Page Validation', () {
     testWidgets('Register button does not work when fields are empty', (WidgetTester tester) async {
