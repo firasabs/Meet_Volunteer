@@ -26,7 +26,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
 
   
-  Future<void> _deleteAccount() async { //delete account
+  Future<void> _deleteAccount() async {  //delete account
     try {
       User? user = _auth.currentUser;
       if (user != null) {
