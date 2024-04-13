@@ -7,7 +7,7 @@ import 'package:sce_project/interface/browse.dart' as _user;
 
 class ContactUser extends StatefulWidget {
   const ContactUser({super.key, required this.otherUser});
-  final _user.User otherUser;
+  final _user.User1 otherUser;
   static String id = 'usercontact';
   @override
   State<ContactUser> createState() => _ContactUserState();
